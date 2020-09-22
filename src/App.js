@@ -30,7 +30,7 @@ function App() {
     }else{
       clearTimeout(timeout);
       setCities([]);
-      setSelectedCity(null);
+      /*setSelectedCity(null);*/
     }
   }, [textField]);
 
